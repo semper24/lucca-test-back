@@ -129,7 +129,7 @@ namespace CurrencyManager
 
                 k++;
             }
-            Console.WriteLine(res);
+            Console.WriteLine(Math.Round(res));
         }
         // Attributes
         public string FilePath { get; set; } = default!;
