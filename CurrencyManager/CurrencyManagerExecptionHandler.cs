@@ -1,7 +1,3 @@
-#nullable disable
-
-using System;
-
 public class ErrorCurrencyManager : Exception
 {
     public ErrorCurrencyManager(string message) : base(message) {}

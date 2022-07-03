@@ -1,4 +1,3 @@
-using System;
 public struct CurrencyRate
 {
     public CurrencyRate(string startCur, string endCur, double rate)
