@@ -12,7 +12,7 @@ $> dotnet publish LuccaDevises
 ## Launch the tool
 
 ```bash
-$> dotnet LuccaDevises/ <PATH_TO_FILE>
+$> LuccaDevises/bin/Debug/net6.0/publish/LuccaDevises <PATH_TO_FILE>
 ```
 
 ## Entry File
