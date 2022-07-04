@@ -18,7 +18,7 @@ namespace CurrencyManager
             {
                 this.FileContent = System.IO.File.ReadAllLines(filePath);
             }
-            catch (FileNotFoundException) { throw (new ErrorFileReading()); }
+            catch (Exception) { throw (new ErrorFileReading()); }
         }
         private void parseFileContent()
         {

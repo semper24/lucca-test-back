@@ -3,10 +3,16 @@
 The aim of this project is to create a tool that will give you the shortest possible conversion from an initial and end currency.
 Information will be passed from a file.
 
+## Build the tool
+
+```bash
+$> dotnet publish LuccaDevises
+```
+
 ## Launch the tool
 
 ```bash
-$> LuccaDevises <PATH_TO_FILE>
+$> dotnet LuccaDevises/ <PATH_TO_FILE>
 ```
 
 ## Entry File

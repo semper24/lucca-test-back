@@ -7,7 +7,7 @@
             CurrencyManager.CurrencyManager manager;
             try {
                 manager = new CurrencyManager.CurrencyManager(args[0]);
-            } catch(IndexOutOfRangeException) { throw (new ErrorFilePath()); }
+            } catch(Exception) { throw (new ErrorFilePath()); }
             manager.launchConversion();
         }
         catch (ErrorCurrencyManager e)
